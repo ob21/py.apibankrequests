@@ -6,11 +6,9 @@ querystring = {"id":10}
 
 payload = ""
 headers = {
-    'PASS': "go16",
-    'cache-control': "no-cache",
-    'Postman-Token': "c32bab89-086a-4b16-bb3e-a9f7516c1455"
-    }
+    'PASS': "go17"}
 
-response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
+#response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
+response = requests.get("https://obriand.fr/d/operation/get.php?id=10", headers=headers) 
 
 print(response.text)
