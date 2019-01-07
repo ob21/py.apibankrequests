@@ -4,7 +4,7 @@ url = "https://obriand.fr/d/operation/list.php"
 
 payload = ""
 headers = {
-    'PASS': "go17",
+    'PASS': "go22",
     'cache-control': "no-cache"
     }
 
