@@ -7,14 +7,14 @@ sudo apt install virtualenv
 mkdir myproject
 cd myproject
 
-on linux :
+**On linux** :
 
 virtualenv -p /usr/bin/python3.6 venv
 
 source venv/bin/activate
 deactivate
 
-on windows :
+**On windows** :
 
 python -m venv env
 
